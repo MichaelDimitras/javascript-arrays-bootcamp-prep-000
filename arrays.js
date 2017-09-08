@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(arr, e){
 
 
 function destructivelyAddElementToBeginningOfArray(arr,e) {
-  arr = arr.push(e)''
+  arr = arr.push(e);
   return arr
 }
 
@@ -25,7 +25,8 @@ function removeElementFromBeginningOfArray(arr){
 
 
 function destructivelyRemoveElementFromEndOfArray(arr){
-  return arr.pop();
+  arr = arr.pop();
+  return arr;
 }
 
 function removeElementFromEndOfArray(arr){
