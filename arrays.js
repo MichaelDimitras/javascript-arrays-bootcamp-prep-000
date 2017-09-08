@@ -1,9 +1,8 @@
 function addElementToBeginningOfArray(arr, e){
-
+  return arr.push(e);
 }
 
 
 function destructivelyAddElementToBeginningOfArray(arr,e) {
-  
+  return [e,...arr];
 }
-`snickers`, `hundred grand`, `kitkat`, and `skittles`
